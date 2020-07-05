@@ -1,0 +1,11 @@
+:root {
+    /* Colors */
+    --mainColor: 0,0,0;
+    --whisper: 233,233,233;
+    --nero: 29,29,29;
+    --ceruleanBlue: 32,76,221;
+    --bittersweet: 254,116,96;
+
+    /* Fonts */
+    --mainFont: "Roboto", sans-serif;
+}

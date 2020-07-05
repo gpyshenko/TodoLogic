@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html,
+body {
+    min-height: 100vh;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    font-size: 16px;
+    font-family: var(--mainFont);
+    font-weight: 400;
+    line-height: 1;
+    color: rgb(var(--mainColor));
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    outline: none;
+    &:not([class]) {
+        display: inline-block;
+        text-decoration: underline;
+    }
+}
+
+button {
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+label {
+    font-family: var(--mainFont);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+button, input {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    border: none;
+    outline: none;
+}
